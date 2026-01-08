@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+dist
+.turbo
+.vercel
+.cache
+.npm
+.yarn
+.pnpm-store
+
+

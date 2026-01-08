@@ -1,0 +1,25 @@
+services:
+  backend:
+    image: mrgwenchana/prj1-backend:v1
+    container_name: project1-backend
+    networks: [prj1-net]
+    ports: ["3000:3000"]
+
+  frontend:
+    image: mrgwenchana/prj1-frontend:v1
+    container_name: project1-frontend
+    networks: [prj1-net]
+
+  nginx:
+    image: mrgwenchana/prj1-nginx:v1
+    container_name: project1-nginx
+    ports: ["8080:80"]
+    depends_on: [backend, frontend]
+    networks: [prj1-net]
+
+networks:
+  prj1-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.25.0.0/16
