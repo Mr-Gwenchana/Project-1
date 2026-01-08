@@ -58,8 +58,16 @@ cd Project-1
 - Backend: Truy cập `project1` và chạy: `npm install`
 
 ### 2. Khởi chạy ứng dụng (Dev Mode)
-- Frontend: `bun run dev`
-- Backend: `npm run dev`
+- Frontend:
+```bash
+cd frontend
+bun run dev
+```
+- Backend:
+```bash
+cd project1
+npm run dev
+```
 Sau đó, truy cập vào hệ thống qua địa chỉ: 'http://localhost:3001' 
 ---
 
