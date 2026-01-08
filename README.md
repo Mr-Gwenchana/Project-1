@@ -69,7 +69,6 @@ cd project1
 npm run dev
 ```
 Sau đó, truy cập vào hệ thống qua địa chỉ: 'http://localhost:3001' 
----
 
 ## 🐳 Phương pháp 2: Chạy bằng Docker Compose
 
