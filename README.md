@@ -9,13 +9,13 @@ Dự án bao gồm:
 ---
 
 ## 📂 Cấu trúc thư mục
-
+```text
 Project-1/
 ├── project1/       # Thư mục Backend
 ├── frontend/       # Thư mục Frontend
 ├── nginx/          # Cấu hình Nginx
 └── docker-compose.yml
-
+```
 ---
 
 ## 🛠 Yêu cầu hệ thống
